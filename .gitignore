@@ -1,0 +1,31 @@
+# ===============================
+# PYTHON CACHE / ENVIRONMENT FILES
+# ===============================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# ===============================
+# NOTEBOOK CHECKPOINTS
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS / EDITOR FILES
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# DATA FILES (large — not pushed to GitHub)
+# ===============================
+data/*.tsv
+data/*.csv
+data/*.zip
+data/*.json
