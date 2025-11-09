@@ -56,6 +56,26 @@ scamazon-sentiment/
 ```
 ---
 
+## 📦 Dataset Information
+
+Due to the **large file size (hundreds of MBs)**, the raw datasets are **not uploaded directly to this repository**.  
+You can download them from the official **Amazon Customer Reviews (Amazon Product Review Dataset)** hosted on AWS:
+
+| Dataset | Description | Download Link |
+|----------|--------------|----------------|
+| **Books (v1_02)** | 22M+ book reviews with ratings, verified purchases, and review text | [📥 Download (Books v1_02)](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz) |
+| **Electronics (v1_00)** | 7M+ electronics product reviews | [📥 Download (Electronics v1_00)](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Electronics_v1_00.tsv.gz) |
+| **Full Dataset Index** | Browse all 30+ categories | [Dataset Index](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) |
+
+After downloading, extract and place both `.tsv` files into your local **`data/`** folder:
+
+---
+
+> ⚠️ *Note:* The repository only contains code, notebooks, and model files for reproducibility.  
+> Please download the raw review datasets manually before running the training notebook or GUI app.
+
+---
+
 ## 📊 Model Training (train_final.ipynb)
 
 This notebook covers:
